@@ -1,0 +1,49 @@
+.wrapper {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(7, 3fr);
+}
+
+html {
+  background-color: black;
+}
+
+h1 {
+  color: lime;
+  grid-column: 2;
+}
+
+button {
+  color: chartreuse;
+  background-color: darkgreen;
+}
+
+button:hover {
+  background-color: greenyellow;
+}
+
+span {
+  background-color: darkgreen;
+  color: aquamarine;
+}
+
+p {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+#st {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+#sp {
+  grid-column: 2;
+  grid-row: 6;
+}
+
+#rt {
+  grid-column: 2;
+  grid-row: 7;
+}
